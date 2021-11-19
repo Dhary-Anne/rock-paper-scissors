@@ -1,0 +1,68 @@
+body {
+    background-color: silver;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    border: darkblue;
+}
+
+
+.selections {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+    margin-top: 4rem;
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
+.result {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.result-score {
+    margin-left: .5rem;
+    font-size: .8rem;
+    color: gray;
+    text-align: left;
+}
+
+.result-selection {
+    opacity: .5;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#user_choice {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#comp_choice {
+    text-align: center;
+    font-size: 1.3em;
+}

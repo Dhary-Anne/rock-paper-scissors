@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href=styles.css>
+    </head>
+    <body>
+        <header>Rock, Paper, Scissors!</header>
+        <div class="selections">
+            <button class="selection" onclick="checker('rock')">✊🏾</button>
+            <button class="selection" onclick="checker('paper')">✋🏾</button>
+            <button class="selection" onclick="checker('scissors')">✌🏾</button>
+        </div>
+        <h1>Can you beat the computer?</h1>
+        <div class="result">
+            <div>
+                <!--You: -->
+                <span class="user-score"></span>
+            </div>
+            <div>
+               <!---Computer: -->
+                <span class="computer-score"></span>
+            </div>
+        </div>
+    <div>
+        <p id="user_choice"></p>
+        <p id="comp_choice"></p>
+        <p id="result"></p>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
