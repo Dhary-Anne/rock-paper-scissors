@@ -9,3 +9,5 @@ Technologies
 -Javascript
 -CSS
 -HTML
+ 
+ live demo: https://dhary-anne.github.io/rock-paper-scissors/
